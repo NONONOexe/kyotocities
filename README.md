@@ -24,7 +24,7 @@ You can install the development version of kyotocities like so:
 
 ``` r
 install.packages("remotes")
-remotes::install_git("https://maslab.aitech.ac.jp/gitlab/ando/kyotocitiesdev")
+remotes::install_git("https://github.com/NONONOexe/kyotocities")
 ```
 
 ## Usage
