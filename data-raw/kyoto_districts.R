@@ -1,0 +1,5 @@
+devtools::load_all()
+file <- download_kyoto_district_data("data-raw")
+kyoto_districts <- read_kyoto_district_data(file)
+unlink(file)
+usethis::use_data(kyoto_districts, overwrite = TRUE)
